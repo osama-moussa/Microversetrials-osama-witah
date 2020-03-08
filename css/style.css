@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.con{
+    max-width:1000px;
+    margin:100px auto;
+    text-align: center;
+}
+#header{
+    width:100%;
+    position:fixed;
+    top:0;
+    display: flex;;
+    justify-content: space-around;
+    align-items:center;
+    background-color: blue;
+}
+ul li{
+   display: inline-block;
+   list-style:none;
+    text-decoration: none;
+    color:red;
+  
+}
+#header-img{
+    height:50px;
+}
+ul{
+    list-style:none;
+    text-decoration: none;
+}
+.nav-link{
+    color:red;
+    text-decoration: none;
+}
+
+#features{
+    margin:10px;
+}
+#conatct-us{
+    margin:10px;
+}
+#video{
+    margin:30px;
+}
+@media screen and (max-width:600px){
+    p{
+        display: inline-flex;
+    }
+}
+
+#nav-bar{
+    position:fixed;
+}
